@@ -2,6 +2,8 @@
 
 A powerful conversational AI application that allows you to chat with the content of multiple PDF documents. Upload your PDFs and ask questions to get comprehensive answers, summaries, and insights from your documents.
 
+![MultiPDF Chat App](./docs/example.JPG)
+
 ##  Features
 
 -  Upload and process multiple PDF documents
@@ -49,7 +51,7 @@ MultiPDF Chat uses Retrieval Augmented Generation (RAG) to provide accurate, con
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/multipdf_chat.git
+git clone https://github.com/Asura3301/multipdf_chat.git
 cd multipdf_chat
 
 # Create and activate a virtual environment (optional but recommended)

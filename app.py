@@ -22,8 +22,8 @@ from config import *  # Import all configuration settings
 
 if "GROQ_API_KEY" not in os.environ:
     os.environ["GROQ_API_KEY"] = getpass.getpass("Enter your Groq API key: ")
-HUGGINGFACE_API_TOKEN = os.environ.get("HUGGINGFACE_API_TOKEN")
-os.environ["HUGGINGFACE_API_TOKEN"] = HUGGINGFACE_API_TOKEN
+HUGGINGFACEHUB_API_TOKEN = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = HUGGINGFACEHUB_API_TOKEN
 #------------------------------------
 
 def get_pdf_text(pdf_docs):
