@@ -20,7 +20,7 @@ MAX_CHUNK_OVERLAP = 200
 CHUNK_OVERLAP_STEP = 10
 
 # LLM settings
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "llama-3.1-8b-instant"
 ALTERNATIVE_MODELS = [
     "llama-3.1-8b-instant",
     "llama-3.1-70b-versatile",
@@ -56,4 +56,8 @@ This app allows you to chat with multiple PDF documents using LangChain and Groq
 Built with Groq, Streamlit, LangChain, Google Serper, and FAISS vector database.
 
 GitHub: [Asura3301](https://github.com/Asura3301/multipdf_chat)
+
+Kaggle: [MultiPDF Chat](https://www.kaggle.com/code/adastra3301/multipdf-chat)
+
+Medium: [Gen AI Intensive Course Capstone 2025Q1](https://medium.com/@evezon00/gen-ai-intensive-course-capstone-2025q1-75d2e94ab86b)
 """
