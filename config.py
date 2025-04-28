@@ -53,7 +53,7 @@ SAMPLE_QUESTIONS = [
 ABOUT_TEXT = """
 This app allows you to chat with multiple PDF documents using LangChain and Groq LLM.
 
-Built with Streamlit, LangChain, and FAISS vector database.
+Built with Groq, Streamlit, LangChain, Google Serper, and FAISS vector database.
 
 GitHub: [Asura3301](https://github.com/Asura3301/multipdf_chat)
 """
